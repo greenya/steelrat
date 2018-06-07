@@ -9,15 +9,13 @@
       <v-toolbar-title>Стань стальной крысой</v-toolbar-title>
     </v-toolbar>
     <v-content>
-      <v-container fluid>
+      <v-fade-transition mode="out-in">
         <router-view></router-view>
-      </v-container>
+      </v-fade-transition>
     </v-content>
   </v-app>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+export default { name: 'App' }
 </script>
