@@ -7,7 +7,7 @@ import PageNotFound from '@/components/PageNotFound'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history', // for gh-pages only!
   routes: [
     {
       name: 'home',
