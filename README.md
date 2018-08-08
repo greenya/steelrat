@@ -1,6 +1,8 @@
 # steelrat
 
-> Text game quest
+Text game quest
+
+[Demo](https://greenya.github.io/steelrat/)
 
 ## Build Setup
 
